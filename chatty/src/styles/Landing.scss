@@ -1,0 +1,27 @@
+.top-cta{
+  padding: 30px;
+
+  button{
+    padding: 15px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: #815EEC;
+    border-color: transparent;
+
+    &:hover{
+      background-color: #6441C4;
+    }
+  }
+}
+
+.middle-cta{
+  padding: 30px;
+  color: white;
+  background-color: #815EEC;
+
+  ul{
+    list-style: none;
+  }
+}
