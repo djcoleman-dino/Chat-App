@@ -5,6 +5,7 @@ import NavRouter from './components/Router/NavRouter';
 import './App.css';
 import './styles/Nav.scss';
 import './styles/Landing.scss';
+import './styles/Request.scss';
 
 function App() {
   return (

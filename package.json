@@ -1,7 +1,19 @@
 {
   "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
     "node-sass": "^4.12.0",
     "react-google-login": "^5.0.5",
-    "react-router-dom": "^5.1.2"
+    "react-router-dom": "^5.1.2",
+    "socket.io": "^2.3.0"
+  },
+  "name": "chatty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/docoleman36/Chat-App.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
   }
 }
