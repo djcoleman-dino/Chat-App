@@ -8,6 +8,7 @@ import {
 
 import Landing from '../Landing';
 import Signin from '../Signin';
+import Request from '../Requests';
 
 export default function NavRouter() {
   return (
@@ -18,6 +19,7 @@ export default function NavRouter() {
           <NavLink to="#">Features</NavLink>
           <NavLink to="#">Solutions</NavLink>
           <NavLink to="#">Pricing</NavLink>
+          <NavLink to="/request">Request</NavLink>
         </div>
         <div className="right-side">
           <NavLink to="#">Sign up</NavLink>
@@ -27,6 +29,7 @@ export default function NavRouter() {
       <Switch>
         <Route exact path="/" component={Landing} />
         <Route exact path="/signin" component={Signin} />
+        <Route exact path="/request" component={Request} />
       </Switch>
     </Router>
   );
