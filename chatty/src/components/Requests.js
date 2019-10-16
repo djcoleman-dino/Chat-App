@@ -15,8 +15,17 @@ export default function Request() {
       });
   }, [])
 
+  const handleChange = e => {
+    e.preventDefault();
+  }
+
 
   return (
-    <h1>Hello</h1>
+    <div>
+      <ul id="messages"></ul>
+      <form action="/" method="POST" id="chatForm" onSubmit={handleChange}>
+        <input id="txt" autoComplete="off" autoFocus="on" placeholder="type your message here..." /><button>Send</button>
+      </form>
+    </div>
   )
 }

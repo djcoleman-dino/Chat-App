@@ -10,7 +10,7 @@ export default function Landing() {
         <button>Create an account</button>
       </div>
 
-      <div className="middle-cta">
+      {/* <div className="middle-cta">
         <h3>Features of chatty</h3>
         <ul>
           <li>Lorem lorem ipsem</li>
@@ -18,7 +18,7 @@ export default function Landing() {
           <li>Lorem lorem ipsem</li>
           <li>Lorem lorem ipsem</li>
         </ul>
-      </div>
+      </div> */}
 
       <Footer />
     </div>
